@@ -10,7 +10,7 @@ function evaluarTemperatura() {
     if (temp < 0) {
         mensaje = 'Hace mucho frío';
         colorFondo = 'blue';
-    } else if (temp>= 0 && temp < 15){
+    } else if (temp >= 0 && temp < 15){
         mensaje = 'Hace frío';
         colorFondo = 'lightblue';
     } else if (temp>= 15 && temp < 25){
